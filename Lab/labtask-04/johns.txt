@@ -1,2 +1,0 @@
-5, Johnny Cash, Title 482, price $6.50
-7, John Lennon, Title 271, price $7.90
