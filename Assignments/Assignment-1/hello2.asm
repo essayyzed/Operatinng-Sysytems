@@ -6,7 +6,7 @@ section .text
 global _start
 
 _start:
-mov ecx, 5000000000
+mov ecx, 50000
 
 l1:
 
@@ -24,4 +24,4 @@ loop l1
 
 mov rdi, 0
 mov rax, 60
-int 80h
+syscall
