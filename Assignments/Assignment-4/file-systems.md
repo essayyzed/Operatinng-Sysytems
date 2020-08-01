@@ -1,0 +1,6 @@
+#File System:
+We all have different files of different formats some are of OS while some are our personal files. So how they are stored in our *Storage Devices*? This is valid a question because there are different storage devices of different companies. The answer for this question is that these sort of matters are handle by *File Systems* of our OS. The file saved on particular device is told by the File System of that OS.
+Here comes the concept of *Virtual File Systems(VFS)*. It is an abstraction between the OS and  a *File System* that gives access to different File System(ext4,NTFS,FAT etc). But *what is FILE SYSTEMS??* Well it is organization of data(information) and metadata(things that describe data). 
+File Systems usually interacts with files in the form of Block Devices in which the first three blocks tell about the metadata while the remaining tell us about the data.
+
+The benefit of using the VFS is that you can load your file in any File System regardless of its type whether it is FAT,NTFS or ext4. Even you can also store your file on Cloud which when you open won't care about the file System used. We can perform the basic operation on the files like that of read & write regardless of the file system used.

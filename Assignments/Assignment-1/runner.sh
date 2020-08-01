@@ -26,8 +26,8 @@ avg_time() {
                }'
 }
 
-echo -e "Averge Time for INT 80h"
-avg_time 50 ./hello2
-
-echo -e "Averge time for syscall"
+echo -e "INT 80h"
 avg_time 50 ./hello
+
+echo -e "syscall"
+avg_time 50 ./hello2
